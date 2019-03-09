@@ -67,6 +67,11 @@ input[type="submit"] {
   border: none;
 }
 
+input[type="submit"]:hover {
+  background-color: black;
+  color: #ffae19;
+}
+
 ::placeholder {
   font-size: 14px;
 }
@@ -79,6 +84,10 @@ iframe {
   width: 300px;
   border: 1px solid black;
   margin: 16px auto;
+}
+
+.services:last-child {
+  margin-bottom: 48px;
 }
 
 .level {
@@ -95,6 +104,11 @@ iframe {
   padding: 8px;
   margin: 16px 0;
   background-color: #ffae19;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #ffae19;
 }
 
 footer {
