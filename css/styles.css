@@ -4,10 +4,26 @@
   margin: 0;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 header,
-main,
-footer {
+main {
   padding: 16px;
+  text-align: center;
+}
+
+header {
+  margin-top: 16px;
+}
+
+nav {
+  margin-top: 16px;
+}
+
+footer {
+  padding: 16px 16px 48px 16px;
   text-align: center;
 }
 
@@ -37,16 +53,18 @@ input[type="email"] {
   width: 280px;
   padding: 5px;
   margin-bottom: 16px;
+  outline: none;
 }
 
 input[type="submit"] {
   width: 150px;
   padding: 8px;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  background-color: yellow;
+  background-color: #ffae19;
+  border: none;
 }
 
 ::placeholder {
@@ -64,28 +82,40 @@ iframe {
 }
 
 .level {
-  background-color: grey;
+  background-color: #dbdbdb;
   padding: 8px 0;
+  font-weight: bolder;
 }
 
 .btn {
   text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
   width: 100px;
   padding: 8px;
   margin: 16px 0;
-  background-color: yellow;
+  background-color: #ffae19;
 }
 
 footer {
-  background-color: grey;
+  background-color: #dbdbdb;
 }
 
 .footer-nav {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-nav li {
   font-weight: bolder;
   display: inline-block;
   padding: 8px;
+}
+
+.description {
+  margin-bottom: 48px;
+}
+
+.svg-img {
+  width: 50px;
 }
