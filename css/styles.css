@@ -6,6 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #f1f1f1;
 }
 
 header,
@@ -14,12 +15,20 @@ main {
   text-align: center;
 }
 
-header {
-  margin-top: 16px;
+main {
+  margin-top: 155px;
 }
 
 nav {
   margin-top: 16px;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f1f1f1;
 }
 
 footer {
@@ -40,7 +49,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+ul li {
   padding-bottom: 5px;
 }
 
@@ -64,7 +73,7 @@ input[type="submit"] {
   text-transform: uppercase;
   font-weight: bold;
   color: black;
-  background-color: #ffae19;
+  background-color: #ffc04c;
   border: none;
   border-radius: 5px;
 }
@@ -75,7 +84,8 @@ input[type="submit"]:hover {
 }
 
 ::placeholder {
-  font-size: 14px;
+  font-size: 13px;
+  text-align: center;
 }
 
 iframe {
@@ -106,7 +116,7 @@ iframe {
   width: 100px;
   padding: 8px;
   margin: 16px 0;
-  background-color: #ffae19;
+  background-color: #ffc04c;
 }
 
 .btn:hover {
