@@ -9,16 +9,6 @@ body {
   background-color: #f1f1f1;
 }
 
-main {
-  padding: 16px;
-  text-align: center;
-  margin-top: 155px;
-}
-
-nav {
-  margin-top: 16px;
-}
-
 header {
   position: fixed;
   top: 0;
