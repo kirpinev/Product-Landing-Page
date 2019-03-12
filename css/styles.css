@@ -11,10 +11,7 @@ body {
   background-color: #f1f1f1;
 }
 
-header,
-.email-form,
-main,
-footer {
+main {
   padding: 0 16px;
 }
 
@@ -48,6 +45,7 @@ header {
   right: 0;
   left: 0;
   min-height: 75px;
+  padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,6 +92,7 @@ nav li {
   text-align: center;
   height: 200px;
   margin-top: 190px;
+  padding: 0 16px;
 }
 
 .email-form h2 {
